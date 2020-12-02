@@ -34,11 +34,23 @@
     padding-left: 40px;
     padding-top: 25px;
     border: none;
-
+    display: inline-flex;
+    width: 100%;
+}
+.videos {
+    width: 60%;
+}
+.video-recommendation {
+    width: 30%;
+    background-color: white;
+    padding-left: -2rem;
+}
+.my-video {
+    width: 760px;
 }
 iframe {
-    height: 430px;
-    width: 700px;
+    height: 420px;
+    width: 750px;
 }
 .video-details {
     padding-top: 15px;
@@ -61,3 +73,34 @@ h2 {
     font-weight: 300;
     padding-top: 15px;
 }
+.share, .like, .unlike, .save, .more {
+    height: 20px;
+    padding: none;
+}
+.like-reaction, .unlike-reaction, .share-reaction, .save-reaction, .more-reaction {
+    text-decoration: none;
+    color: #808080;
+    
+    
+}
+
+.video-reaction {
+    padding-top: none;
+    
+    
+}
+.video-views {
+    padding-top: 4px;
+    float: left;
+
+}
+.video-otherviews {
+    padding-top: 18px;
+    float: right;
+}
+.top {
+    padding: 0;
+    display: flex;
+    text-justify: distribute;
+}
+
