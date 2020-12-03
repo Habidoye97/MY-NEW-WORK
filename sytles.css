@@ -30,20 +30,23 @@
     height: 1.6rem;
 }
 .mainbody {
-    background-color: #f8f8f8;
-    padding-left: 40px;
-    padding-top: 25px;
+    background: #f8f8f8;
+    padding: 15px 30px;
     border: none;
-    display: inline-flex;
-    width: 100%;
+    
+    
 }
 .videos {
     width: 60%;
+    background: #f8f8f8;
+    padding-left: none;
+    float: left;
 }
 .video-recommendation {
+    float: left;
     width: 30%;
     background-color: white;
-    padding-left: -2rem;
+    padding-left: none;
 }
 .my-video {
     width: 760px;
@@ -54,7 +57,7 @@ iframe {
 }
 .video-details {
     padding-top: 15px;
-    display: inline-block;
+   
 }
 .video-tag {
     text-decoration: none;
@@ -90,17 +93,60 @@ h2 {
     
 }
 .video-views {
-    padding-top: 4px;
+    padding-top: none;
     float: left;
 
 }
 .video-otherviews {
-    padding-top: 18px;
+    padding-top: none;
     float: right;
 }
 .top {
-    padding: 0;
+    justify-content: space-between;
     display: flex;
-    text-justify: distribute;
+    
+}
+.top h1 {
+    font-weight: lighter;
 }
 
+.channel-section {
+    padding-left: none;
+    padding-top: none;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    display: normal;
+}
+.thumbnail-image {
+    width: 98%;
+    height: 120px;
+    padding-right: none;
+    display: full;
+}
+.video-thumbnail {
+    float: left;
+
+}
+.video-thumbnail-details {
+    width: 50%;
+    float: left;
+    cursor: pointer;
+}
+.thumbnail-section {
+   display: flex;
+}
+.video-thumbnail-details h2 {
+    font-size: 12px;
+    margin-top: -0.5rem;
+    font-weight: lighter;
+}
+.video-thumbnail-details h1 {
+    font-size: 15px;
+    margin-top: none;
+    font-weight: 450;
+
+}
+.page-bottom {
+    float: none;
+    height: 30px;
+}
