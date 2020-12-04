@@ -33,17 +33,16 @@
     background: #f8f8f8;
     padding: 15px 30px;
     border: none;
-    
-    
+    display: flex;   
 }
 .videos {
     width: 60%;
     background: #f8f8f8;
     padding-left: none;
-    float: left;
+    
 }
 .video-recommendation {
-    float: left;
+    
     width: 30%;
     background-color: white;
     padding-left: none;
@@ -89,17 +88,17 @@ h2 {
 
 .video-reaction {
     padding-top: none;
-    
-    
+    display: flex;
+    justify-content: space-between;
 }
 .video-views {
     padding-top: none;
-    float: left;
+    
 
 }
 .video-otherviews {
-    padding-top: none;
-    float: right;
+    padding-top: 1.2rem;
+    
 }
 .top {
     justify-content: space-between;
@@ -116,6 +115,28 @@ h2 {
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     display: normal;
+}
+.channel-icon {
+    border-radius: 500px;
+    height: 60px;
+}
+.channel {
+    display: flex;
+}
+.yoruba {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+}
+.other {
+    padding-left: 80px;
+    font-weight: lighter;
+}
+.other a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
 }
 .thumbnail-image {
     width: 98%;
@@ -143,10 +164,28 @@ h2 {
 .video-thumbnail-details h1 {
     font-size: 15px;
     margin-top: none;
-    font-weight: 450;
+    font-weight: bold;
 
 }
 .page-bottom {
-    float: none;
-    height: 30px;
+    padding-left: 40px;
+    height: 200px;
+}
+.top-bottom {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.last {
+    height: 70px;
+    background-color: #f8f8f8;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+.other-about {
+    display: flex;
+    font-weight: lighter;
+    justify-content: space-around;
 }
