@@ -174,7 +174,7 @@ h2 {
 .top-bottom {
     padding-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .last {
     height: 70px;
@@ -182,10 +182,14 @@ h2 {
 }
 .about {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border-top: 1px solid #f8f8f8;
 }
 .other-about {
     display: flex;
     font-weight: lighter;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.space {
+    height: 20px;
 }
