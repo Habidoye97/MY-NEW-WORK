@@ -8,7 +8,7 @@
     border: none;
 }
 .youtube-logo {
-    height: 1.5rem;
+    height: 1.3rem;
 }
 .profile {
     height: 1.8rem;
@@ -42,7 +42,7 @@
     
 }
 .video-recommendation {
-    
+    padding-top: 0;
     width: 30%;
     background-color: white;
     padding-left: none;
@@ -103,7 +103,6 @@ h2 {
 .top {
     justify-content: space-between;
     display: flex;
-    
 }
 .top h1 {
     font-weight: lighter;
@@ -118,7 +117,12 @@ h2 {
 }
 .channel-icon {
     border-radius: 500px;
+    padding-top: 10px;
     height: 60px;
+}
+.channel-icon-name {
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .channel {
     display: flex;
@@ -132,6 +136,7 @@ h2 {
 .other {
     padding-left: 80px;
     font-weight: lighter;
+    padding-top: 0;
 }
 .other a {
     text-decoration: none;
@@ -192,4 +197,7 @@ h2 {
 }
 .space {
     height: 20px;
+}
+.space {
+    border-top: 1px solid #988;
 }
